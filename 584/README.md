@@ -1,5 +1,6 @@
 <h2><a href="https://leetcode.com/problems/find-customer-referee/description/?envType=study-plan-v2&envId=top-sql-50">Find Customer Referee</a></h2>
 <h3>EASY</h3>
+<h4>Table:Customer</h4>
 <table border="1">
     <tr>
         <th>id</th>
@@ -37,6 +38,7 @@
         <td>2</td>
     </tr>
 </table>
+<h4>output</h4>
 <table border="1">
     <tr>
         <th>name</th>
