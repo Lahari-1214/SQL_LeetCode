@@ -1,19 +1,15 @@
-\# SQL LeetCode Solutions
-
+SQL LeetCode Solutions
+-----------------------
 
 
 Welcome to my SQL LeetCode Solutions Repository!  
 
-This repo contains clean \& optimized SQL solutions for the \*\*LeetCode SQL 50\*\* questions.
+This repo contains clean \& optimized SQL solutions for the LeetCode SQL 50 questions.
+                                                            ----------------
 
 
-
----
-
-
-
-\## 📌 LeetCode Questions \& Solutions
-
+📌 LeetCode Questions \& Solutions
+-----------------------------------
 
 
 | No. | Problem Name | Solution Link |
@@ -36,7 +32,8 @@ This repo contains clean \& optimized SQL solutions for the \*\*LeetCode SQL 50\
 
 
 
-\## ✨ Folder Structure
+✨ Folder Structure
+-----------------------
 
 
 
@@ -46,8 +43,8 @@ This repo contains clean \& optimized SQL solutions for the \*\*LeetCode SQL 50\
 
 
 
-\## ⭐ About This Repo
-
+⭐ About This Repo
+---------------------
 
 
 \- Covers \*\*SQL 50 LeetCode\*\*
@@ -60,12 +57,10 @@ This repo contains clean \& optimized SQL solutions for the \*\*LeetCode SQL 50\
 
 
 
----
 
 
-
-\## 🚀 How to Use
-
+🚀 How to Use
+---------------
 
 
 You can open each `.sql` file to see the solution.
