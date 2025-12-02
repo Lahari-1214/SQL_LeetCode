@@ -1,0 +1,56 @@
+<h2><a href="https://leetcode.com/problems/find-customer-referee/description/?envType=study-plan-v2&envId=top-sql-50">Find Customer Referee</a></h2>
+<h3>EASY</h3>
+<table border="1">
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>referee_id</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Will</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Jane</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Alex</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Bill</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Zack</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Mark</td>
+        <td>2</td>
+    </tr>
+</table>
+<table border="1">
+    <tr>
+        <th>name</th>
+    </tr>
+    <tr>
+        <td>Will</td>
+    </tr>
+    <tr>
+        <td>Jane</td>
+    </tr>
+    <tr>
+        <td>Bill</td>
+    </tr>
+    <tr>
+        <td>Zack</td>
+    </tr>
+</table>
