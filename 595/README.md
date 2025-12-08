@@ -61,13 +61,4 @@ World table:
 <h3>SQL Query:</h3>
 
 <pre>
-SELECT 
-    name,
-    population,
-    area
-FROM 
-    World
-WHERE 
-    area >= 3000000
-    OR population >= 25000000;
-</pre>
+
