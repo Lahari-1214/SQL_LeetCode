@@ -1,58 +1,60 @@
-<h2><a href="https://leetcode.com/problems/find-customer-referee/description/?envType=study-plan-v2&envId=top-sql-50">Find Customer Referee</a></h2>
+<h2><a href="https://leetcode.com/problems/big-countries/description/?envType=study-plan-v2&envId=top-sql-50">595. Big Countries</a></h2>
 <h3>EASY</h3>
-<h4>Table:Customer</h4>
-<table border="1">
-    <tr>
-        <th>id</th>
-        <th>name</th>
-        <th>referee_id</th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>Will</td>
-        <td>null</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>Jane</td>
-        <td>null</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>Alex</td>
-        <td>2</td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>Bill</td>
-        <td>null</td>
-    </tr>
-    <tr>
-        <td>5</td>
-        <td>Zack</td>
-        <td>1</td>
-    </tr>
-    <tr>
-        <td>6</td>
-        <td>Mark</td>
-        <td>2</td>
-    </tr>
-</table>
-<h4>output</h4>
-<table border="1">
-    <tr>
-        <th>name</th>
-    </tr>
-    <tr>
-        <td>Will</td>
-    </tr>
-    <tr>
-        <td>Jane</td>
-    </tr>
-    <tr>
-        <td>Bill</td>
-    </tr>
-    <tr>
-        <td>Zack</td>
-    </tr>
-</table>
+<hr>
+
+<h3>SQL Schema</h3>
+
+<p>Table: <code>Customer</code></p>
+
+<pre>
++-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| id          | int     |
+| name        | varchar |
+| referee_id  | int     |
++-------------+---------+
+In SQL, id is the primary key column for this table.
+Each row of this table indicates the id of a customer, their name, and the id of the customer who referred them.
+</pre>
+<ul>
+  <li>referred by any customer with id != 2.</li>
+  <li>not referred by any customer.</li>
+</ul>
+Return the result table in any order.
+
+The result format is in the following example.
+
+<h3>Example 1:</h3>
+
+<p><strong>Input:</strong></p>
+
+<pre>
+customer table:
++----+------+------------+
+| id | name | referee_id |
++----+------+------------+
+| 1  | Will | null       |
+| 2  | Jane | null       |
+| 3  | Alex | 2          |
+| 4  | Bill | null       |
+| 5  | Zack | 1          |
+| 6  | Mark | 2          |
++----+------+------------+
+</pre>
+
+<p><strong>Output:</strong></p>
+
+<pre>
+
++------+
+| name |
++------+
+| Will |
+| Jane |
+| Bill |
+| Zack |
++------+
+</pre>
+
+
