@@ -1,0 +1,1 @@
+select EU.unique_id,E.name from Employees as E left join EmployeeUNI AS EU on E.id = EU.id;
