@@ -1,0 +1,1 @@
+Note that we do not care about days with zero active users.
