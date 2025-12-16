@@ -2,7 +2,7 @@
 
 #  Hey There!
 
-Welcome to my **SQL LeetCode Solutions Repository** 🎯 
+Welcome to my **SQL LeetCode Solutions Repository** 
 
 This repository contains **clean, optimized, and well-structured SQL solutions** for the **LeetCode SQL 30** problems.  
 It focuses on **Easy & Intermediate** level questions to build strong SQL fundamentals.
